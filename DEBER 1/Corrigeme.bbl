@@ -1,0 +1,25 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bosch%
+}{%
+Bosch%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+Bosch}
+\APACinsertmetastar {%
+Bosch}%
+\begin{APACrefauthors}%
+Bosch, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2005}.
+\newblock
+\APACrefbtitle {Tres historias europeas} {Tres historias europeas}.
+\newblock
+\APACaddressPublisher{Madrid}{Caballo de Troya}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
