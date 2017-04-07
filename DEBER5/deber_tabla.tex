@@ -1,0 +1,63 @@
+% Clase del documento
+\documentclass[a4paper, 12pt]{article}
+
+% Paquetes
+\usepackage[utf8]{inputenc}
+\usepackage[spanish, es-nolayout, es-nodecimaldot, es-tabla]{babel}
+\usepackage[top=2cm, left=2cm]{geometry}
+\usepackage{amsmath, amssymb, amsfonts, latexsym}
+\usepackage{graphicx}
+\usepackage[x11names,table]{xcolor}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{url}
+
+% Comandos
+\parindent = 0mm
+
+% Contenido
+\begin{document}
+
+
+\begin{tabular}{lllllllll}
+
+Tabla 3                                     &                                                                                  &                     &                    &                     &                       &                        &              &              \\
+\multicolumn{3}{l}{Modelos de regresión ordinal}                                                                                                     &                    &                     &                       &                        &              &              \\ \hline
+\multirow{2}{*}{Modelos}                    & \multicolumn{2}{l}{\multirow{2}{*}{}}                                                                  & \multirow{2}{*}{B} & \multirow{2}{*}{EE} & \multirow{2}{*}{Wald} & \multirow{2}{*}{\(p\)} & \multicolumn{2}{l}{95\% IC} \\ \cline{8-9} 
+                                            & \multicolumn{2}{l}{}                                                                                   &                    &                     &                       &                        & LI           & LS           \\ \hline
+\multicolumn{1}{c}{\multirow{8}{*}{HNI-16}} & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variable\\ predicha\end{tabular}}     & 1                   & 1.34               & 0.54                & 6.24                  & .013                   & 0.29         & 2.40         \\
+\multicolumn{1}{c}{}                        &                                                                                  & 3                   & 2.61               & 0.56                & 21.80                 & \textless.001          & 1.51         & 3.70         \\
+\multicolumn{1}{c}{}                        &                                                                                  & 5                   & 4.36               & 0.58                & 56.33                 & \textless.001          & 3.22         & 5.50         \\
+\multicolumn{1}{c}{}                        &                                                                                  & 7                   & 7.08               & 0.81                & 77.17                 & \textless.001          & 5.50         & 8.66         \\
+\multicolumn{1}{c}{}                        & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variables\\ predictoras\end{tabular}} & {[}Rlg=Católica{]}  & 0.64               & 0.21                & 8.96                  & .003                   & 0.22         & 1.05         \\
+\multicolumn{1}{c}{}                        &                                                                                  & {[}Rlg=Cristiana{]} & 1.99               & 0.44                & 20.19                 & \textless.001          & 0.23         & 0.94         \\
+\multicolumn{1}{c}{}                        &                                                                                  & {[}AmHo=No{]}       & 0.58               & 0.18                & 10.45                 & .001                   & 0.23         & 0.94         \\
+\multicolumn{1}{c}{}                        &                                                                                  & {[}OS=Hetero{]}     & 1.91               & 0.53                & 13.22                 & \textless.001          & 0.88         & 2.95         \\
+\multirow{8}{*}{EXT}                        & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variable\\ predicha\end{tabular}}     & 1                   & -0.31              & 0.22                & 1.98                  & .159                   & -0.75        & 0.12         \\
+                                            &                                                                                  & 3                   & 0.93               & 0.24                & 15.39                 & \textless.001          & 0.46         & 1.39         \\
+                                            &                                                                                  & 5                   & 2.37               & 0.29                & 68.60                 & \textless.001          & 1.81         & 2.93         \\
+                                            &                                                                                  & 7                   & 3.82               & 0.44                & 77.10                 & \textless.001          & 2.97         & 4.68         \\
+                                            & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variables\\ predictoras\end{tabular}} & {[}Rlg=Católica{]}  & 0.38               & 0.23                & 2.74                  & 0.098                  & -0.07        & 0.82         \\
+                                            &                                                                                  & {[}Rlg=Cristiana{]} & 0.98               & 0.41                & 5.67                  & .017                   & 0.17         & 1.78         \\
+                                            &                                                                                  & {[}AmHo=No{]}       & 0.63               & 0.18                & 11.79                 & .001                   & 0.27         & 0.98         \\
+                                            &                                                                                  & {[}Sexo=Mujer{]}    & -0.36              & 0.18                & 11.79                 & .001                   & 0.27         & 0.98         \\
+\multirow{7}{*}{INT}                        & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variable\\ predicha\end{tabular}}     & 1                   & 0.43               & 0.62                & 0.48                  & .490                   & -0.79        & 1.65         \\
+                                            &                                                                                  & 3                   & 2.38               & 0.66                & 12.88                 & \textless.001          & 1.08         & 3.68         \\
+                                            &                                                                                  & 5                   & 4.01               & 0.68                & 34.57                 & \textless.001          & 2.67         & 5.35         \\
+                                            &                                                                                  & 7                   & 5.61               & 0.71                & 62.65                 & \textless.001          & 4.22         & 7.00         \\
+                                            & \multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Variables\\ predictoras\end{tabular}} & {[}Rlg=Católica{]}  & 0.58               & 0.33                & 3.20                  & 0.074                  & -0.06        & 1.22         \\
+                                            &                                                                                  & {[}Rlg=Cristiana{]} & 2.51               & 0.68                & 13.66                 & \textless.001          & 1.18         & 3.83         \\
+                                            &                                                                                  & {[}OS=Hetero{]}     & 2.90               & 0.64                & 20.70                 & \textless.001          & 1.65         & 4.15         \\
+\multirow{8}{*}{PROMI}                      & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variable\\ predicha\end{tabular}}     & 1                   & 0.79               & 0.49                & 2.62                  & .105                   & -0.17        & 1.74         \\
+                                            &                                                                                  & 3                   & 1.63               & 0.50                & 10.82                 & .001                   & 0.66         & 2.60         \\
+                                            &                                                                                  & 5                   & 2.99               & 0.51                & 34.55                 & \textless.001          & 0.66         & 2.60         \\
+                                            &                                                                                  & 7                   & 4.96               & 0.60                & 69.49                 & \textless.001          & 3.79         & 6.12         \\
+                                            & \multirow{4}{*}{\begin{tabular}[c]{@{}l@{}}Variables\\ predictoras\end{tabular}} & {[}Rlg=Católica{]}  & 0.52               & 0.21                & 6.23                  & 0.013                  & 0.11         & 0.93         \\
+                                            &                                                                                  & {[}Rlg=Cristiana{]} & 1.04               & 0.40                & 6.82                  & .009                   & 0.26         & 1.81         \\
+                                            &                                                                                  & {[}OS=Hetero{]}     & 1.52               & 0.47                & 10.41                 & .001                   & 0.60         & 2.44         \\
+                                            &                                                                                  & {[}IVSA=No{]}       & -0.39               & 0.15                & 6.37                  & .012                   & -0.68        & -0.09        \\ \hline
+\end{tabular}
+
+
+\end{document}
