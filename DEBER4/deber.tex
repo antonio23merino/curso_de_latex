@@ -27,9 +27,7 @@
 
 \title{Incrustar código en un documento de \LaTeX \\} 
 
-\author{Antonio Merino. \\ e-mail: 
-\href{mailto:antonio23merino@hotmail.com}{antonio23merino@hotmail.com}}   
-   \date{\today}  
+\author{Antonio Merino.}
     
 %%%%%%%%%%%
 
@@ -55,50 +53,7 @@ tabsize = 3,
 \begin{lstlisting}
 
 \documentclass[autocontact]{gaceta}
-% (* o \documentclass{gaceta} si el art\'{\i}culo no tiene firma *)
-
-%---------------------
-%%%%%% NOTA T\'ECNICA (ign\'orala si no la entiendes) %%%%%%
-% Si, en lugar de pdflatex (opci\'on por defecto), vas a usar 
-% latex, puedes reproducir el tama\~no final del papel con el 
-% que se imprimir\'a la Gaceta a\~nadiendo la opci\'on dvips:
-% \documentclass[dvips]{gaceta}
-%---------------------
-
-%---------------------
-% No olvides descargar el archivo gaceta.cls y ponerlo 
-% en la misma carpeta que este documento, o donde LaTeX 
-% lo sepa encontrar.
-% Recuerda que La Gaceta prefiere art\'{\i}culos que 
-% no superen las 20 p\'aginas.
-%---------------------
-
-%---------------------
-% La Gaceta se har\'a con esto activado, 
-% pero no hace falta ahora si no quieres:
-%\usepackage[T1]{fontenc}
-%\usepackage{lmodern}
-
-% Puedes usar esto (u otra codificaci\'on) si quieres:
-%\usepackage[latin1]{inputenc}
-
 \usepackage[spanish]{babel}
-%---------------------
-
-%---------------------
-% Esto ya lo carga el estilo de La Gaceta:
-%\usepackage{amsmath, amsthm, amssymb}
-%\usepackage{url} % <-- Para p\'aginas web o similar: \url{...}
-%\usepackage{graphicx}
-%---------------------
-
-%---------------------
-% Carga esto para gr\'aficos si lo necesitas:
-% \usepackage{wrapfig}
-%---------------------
-
-%---------------------
-% <<< ESTO SE AJUSTAR\'A AL EDITAR CADA N\'UMERO DE LA GACETA >>>
 \setcounter{page}{1} 
 \journame{La Gaceta de la RSME}
 \yearofpublication{0000}
@@ -107,21 +62,12 @@ tabsize = 3,
 %---------------------
 
 %---------------------
-% Deja esto as\'{\i}:
 \belongstopart{Art\'{\i}culos} 
-%\belongstopart{Secciones} 
-%\belongstopart{Noticias de la Sociedad} 
-%\belongstopart{Actualidad} 
-%\nopart
-%---------------------
 
 %---------------------
 \title{Un ejemplo de c\'omo escribir un art\'{\i}culo que 
 se publicar\'a en La Gaceta de la RSME}
 \author{Un Autor} % o \author{Un Autor y Otro Autor}, etc.
-% Opcional:
-\shorttitle{Ejemplo de c\'omo escribir un art\'{\i}culo para La Gaceta}
-%---------------------
 
 %---------------------
 \contact{Un autor, Dpto. de Matem\'aticas, Universidad de \dots}
