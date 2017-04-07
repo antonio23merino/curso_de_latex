@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Algunos Ejemplos en \textlatin {\LaTeX }{}}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Tablas y Figuras}{13}{0}{1}
